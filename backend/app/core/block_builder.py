@@ -1,7 +1,8 @@
 """
-Utility helpers used by the block builder.
-Simplified for clarity.
+Simplified block detection logic from a private system.
+This version focuses on deterministic neighborhood-based extraction.
 """
+
 
 from __future__ import annotations
 
