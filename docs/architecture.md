@@ -35,15 +35,19 @@ The extraction pipeline is organized into clear layers:
 [ Document Input ]
 |
 v
+
 [ Paragraph Normalization ]
 |
 v
+
 [ Neighborhood-Based Block Detection ]
 |
 v
+
 [ Structured Requirement Blocks ]
 |
 v
+
 [ Coverage / Traceability Views ]
 
 Each layer has a narrow responsibility and produces outputs that are easy to validate.
