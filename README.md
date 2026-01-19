@@ -52,15 +52,31 @@ Instead of hiding uncertainty, the system:
 
 ## Simplified Architecture
 
-Document
-↓
-Paragraph normalization
-↓
-Block detection (deterministic)
-↓
-Requirement extraction
-↓
-Coverage / traceability review
+The extraction pipeline is organized into clear layers: [ Document Input ]
+
+|
+
+v
+
+[ Paragraph Normalization ]
+
+|
+
+v
+
+[ Neighborhood-Based Block Detection ]
+
+|
+
+v
+
+[ Structured Requirement Blocks ]
+
+|
+
+v
+
+[ Coverage / Traceability Views ]
 
 Each step has a clear responsibility and produces outputs that can be inspected.
 
